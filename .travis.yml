@@ -1,3 +1,8 @@
 language: node_js
 node_js:
   - stable
+addons:
+  sonarcloud:
+    organization: "nandhu08-github"
+    token:
+      secure: "9ebdb1592d22f6f5fb115bdcc293cad820f0c611"
