@@ -6,3 +6,7 @@ addons:
     organization: "nandhu08-github"
     token:
       secure: "9ebdb1592d22f6f5fb115bdcc293cad820f0c611"
+script:
+  - sonar-scanner
+  - npm run build
+  - npm test
